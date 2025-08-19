@@ -2,6 +2,12 @@
 
 A comprehensive training repository for new ShareAI Lab members - Master LLM fine-tuning techniques within one week
 
+## Quick Links
+
+### 🚀 Run in Google Colab (Recommended)
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shareAI-lab/lab-handbook/blob/main/LLM_SFT_for_ERNIE4_5_English.ipynb) **English Tutorial**
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shareAI-lab/lab-handbook/blob/main/LLM_SFT_for_ERNIE4_5_Chinese.ipynb) **Chinese Tutorial (中文版)**
+
 ## Project Overview
 
 This repository provides systematic onboarding materials for new ShareAI Lab members, designed to help them quickly master the core technologies and practical methods of Large Language Model (LLM) fine-tuning within one week.
@@ -76,7 +82,7 @@ jupyter notebook LLM_SFT_for_ERNIE4_5_English.ipynb
 lab-handbook/
 ├── README.md                              # English documentation
 ├── README_CN.md                           # Chinese documentation
-├── LLM_SFT_for_ERNIE4_5_.ipynb          # Chinese tutorial
+├── LLM_SFT_for_ERNIE4_5_Chinese.ipynb   # Chinese tutorial
 ├── LLM_SFT_for_ERNIE4_5_English.ipynb   # English tutorial
 └── outputs/                               # Training output directory
     └── ernie-4.5-0.3b-sft-merged/       # Fine-tuned model weights

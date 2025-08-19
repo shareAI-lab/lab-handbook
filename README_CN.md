@@ -2,6 +2,12 @@
 
 ShareAI实验室新成员入门培训资料库 - 一周内掌握大语言模型微调技术
 
+## 快速链接
+
+### 🚀 在 Google Colab 中运行（推荐）
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shareAI-lab/lab-handbook/blob/main/LLM_SFT_for_ERNIE4_5_Chinese.ipynb) **中文教程**
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shareAI-lab/lab-handbook/blob/main/LLM_SFT_for_ERNIE4_5_English.ipynb) **英文教程 (English)**
+
 ## 项目简介
 
 本仓库为ShareAI实验室新成员提供系统的入门培训材料，旨在帮助新成员在一周内快速掌握大语言模型（LLM）微调的核心技术和实践方法。
@@ -45,7 +51,7 @@ pip install bitsandbytes unsloth_zoo transformers trl
 ### 运行教程
 打开Jupyter Notebook运行微调教程：
 ```bash
-jupyter notebook LLM_SFT_for_ERNIE4_5_.ipynb
+jupyter notebook LLM_SFT_for_ERNIE4_5_Chinese.ipynb
 ```
 
 ## 学习路径
@@ -76,7 +82,7 @@ jupyter notebook LLM_SFT_for_ERNIE4_5_.ipynb
 lab-handbook/
 ├── README.md                              # 英文说明文档
 ├── README_CN.md                           # 中文说明文档
-├── LLM_SFT_for_ERNIE4_5_.ipynb          # 中文微调教程
+├── LLM_SFT_for_ERNIE4_5_Chinese.ipynb   # 中文微调教程
 ├── LLM_SFT_for_ERNIE4_5_English.ipynb   # 英文微调教程
 └── outputs/                               # 训练输出目录
     └── ernie-4.5-0.3b-sft-merged/       # 微调后的模型权重
